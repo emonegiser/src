@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arcgis"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 使用相机权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".httputil.App"
+        android:allowBackup="true"
+        android:icon="@drawable/p5"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainMap1Activity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name"
+            android:launchMode="standard" >
+        </activity>
+        <activity
+            android:name=".activity.MainMap2Activity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name"
+            android:launchMode="standard" >
+        </activity>
+        <activity
+            android:name=".activity.MainMap3Activity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name"
+            android:launchMode="standard" >
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.DZZHAddActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.DZZHDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.DZZHListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.DZZHQueryActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.KCAddActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.KCZYQueryActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.KCZYDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.KCZYListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.SBYDAddActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.SBYDQueryActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.SBYDListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.SBYDDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.MainMap4Activity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.PZYDQueryActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.PZYDDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.PZYDListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.PZYDAddActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- 供应批准用地 -->
+        <activity
+            android:name=".activity.MainMap5Activity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.GYPZYDAddActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.GYPZYDDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.GYPZYDListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.GYPZYDQueryActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.XunChaSBActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- 储备用地 -->
+        <activity
+            android:name=".activity.MainMap6Activity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.CBYDQueryActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.CBYDListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.CBYDDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- 巡查任务 -->
+        <activity
+            android:name=".activity.XCRWListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.XCRWQueryActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.XCRWDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.MainMap7Activity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.XCRWEditActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- 卫片执法 -->
+        <activity
+            android:name=".activity.WPZFQueryActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.WPZFDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.WPZFListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.MainMap8Activity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.WPURLDetailActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.WPURLListShowActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- 显示我的当前位置 -->
+        <activity
+            android:name=".emergency.MyPositionMapActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- 巡查路径上报 -->
+        <service android:name=".gpsservice.GPSService" >
+        </service>
+
+        <!-- 上传离线业务数据 -->
+        <service android:name=".uploadofflinedata.UploadOfflineDataService" >
+        </service>
+
+        <!-- 应急指挥 -->
+        <activity
+            android:name=".emergency.ViewLoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".emergency.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.ConfActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- 系统设置 -->
+        <activity
+            android:name=".activity.SettingActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <receiver
+            android:name=".emergency.SipCallBroadcastReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="cn.showclear.sip.SipRegistrationEventArgs.ACTION_REGISTRATION_CHANGED" />
+                <action android:name="cn.showclear.sip.SipInviteEventArgs.ACTION_INVITE_EVENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".uploadofflinedata.NetReceiver"
+            android:enabled="true" >
+        </receiver>
+
+        <activity
+            android:name=".emergency.PoCActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".emergency.CallActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".emergency.MessagesActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.DZZHYJActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.DZZHYJDetailActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.MyDZZHYJMapActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.YJZSPJXXActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.YJZSPJXXSActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.YJZSPJXXDetailActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.YJZHPhotoActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.Map1FZ"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.DZZHRWListActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.DZZHRWEditActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.DZZHNEWRWActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.MainDZZHActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.DZZHinfoActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.XCRY"
+            android:label="@string/title_activity_xcry" >
+        </activity>
+        <activity
+            android:name=".activity.DZZHNextRecordActivity"
+            android:label="@string/title_activity_dzzhnext_record" >
+        </activity>
+    </application>
+
+</manifest>

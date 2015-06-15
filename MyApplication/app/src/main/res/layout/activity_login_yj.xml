@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <include layout="@layout/map_header_layout"></include>
+
+    <!--<EditText-->
+        <!--android:id="@+id/user"-->
+        <!--android:hint="用户名"-->
+        <!--android:text="6000"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        style="?android:attr/spinnerDropDownItemStyle"
+        -->
+    <AutoCompleteTextView
+        android:id="@+id/autoTextview"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+         />
+
+    <!--<Spinner-->
+        <!--android:id="@+id/userSpinner"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <EditText
+        android:id="@+id/pass"
+        android:hint="密码"
+        android:text="12345"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/host"
+        android:hint="服务器地址"
+        android:text="172.71.0.221"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/port"
+        android:hint="端口"
+        android:text="5060"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/data_server"
+        android:hint="数据服务URL"
+        android:text="http://172.71.0.221:5060/"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:text="登录"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

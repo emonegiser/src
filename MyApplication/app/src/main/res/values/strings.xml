@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">七星关区国土移动巡查系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logintitle">用户登录</string>
+    <string name="action_settings">Settings</string>
+    <string name="offline_message">没有可用的网络连接，只有本地的地图可以使用</string>
+    <string name="uid">用户名:</string>
+    <string name="pwd">密&#160;&#160;&#160;&#160;码:</string>
+    <string name="login">登&#160;&#160;&#160;&#160;&#160;&#160;录</string>
+    <string name="lbsname">重庆图科科技有限公司</string>
+    <string name="lbsname1">&#160;&#160;&#160;&#160;&#160;重庆图科科技有限公司</string>
+    <string name="dzzh">地质灾害</string>
+    <string name="tdgh">决策用地</string>
+    <string name="kcd">矿产资源</string>
+    <string name="xczf">巡查上报</string>
+    <string name="wpzf">卫片执法</string>
+    <string name="spyd">批准用地</string>
+    <string name="pzgyyd">供应用地</string>
+    <string name="cbyd">储备用地</string>
+    <string name="rwxf">移动执法</string>
+    <string name="yjzh">应急指挥</string>
+    <string name="xtsz">系统设置</string>
+
+    <string name="xzb">坐&#160;&#160;&#160;&#160;标:</string>
+    <string name="yzb">纬&#160;&#160;&#160;&#160;度:</string>
+    <string name="zb">坐标信息</string>
+    <string name="dzbh">地灾编号</string>
+    <string name="dzmc">地灾名称</string>
+    <string name="dzlx">地灾类型</string>
+    <string name="ssxz">所属乡镇</string>
+    <string name="dzgm">地灾规模</string>
+    <string name="wdzt">稳定状态</string>
+    <string name="pcsj">普查时间</string>
+    <string name="dm">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;名</string>
+    <string name="csyy">产生原因</string>
+    <string name="hs">户&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;数</string>
+    <string name="rs">人&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;数</string>
+    <string name="je">金额(万元)</string>
+    <string name="jcr">监&#160;&#160;测&#160;&#160;人</string>
+    <string name="lxdh">联系电话</string>
+    <string name="csjy">措施建议</string>
+    <string name="adddzzh">添加地质灾害点</string>
+    <string name="querydzzh">查询地质灾害点</string>
+    <string name="listdzzh">地质灾害点列表</string>
+    <string name="detaildzzh">地质灾害点详情</string>
+    <string name="ssxq">所属新区</string>
+    <string name="sscs">所属村社</string>
+    <string name="ssz">所&#160;&#160;属&#160;&#160;组</string>
+    <string name="dz">详细地址</string>
+    <string name="gmdj">规模等级</string>
+    <string name="wxdx">威胁对象</string>
+    <string name="wxhs">威胁户数</string>
+    <string name="wxrk">威胁人口</string>
+    <string name="qzjjss">经济损失</string>
+    <string name="xqdj">险情等级</string>
+    <string name="cfsj">初发时间</string>
+    <string name="yxys">影响因素</string>
+    <string name="fzzrr">防灾责任人</string>
+    <string name="fzrdh">防灾人电话</string>
+    <string name="jczrr">监测责任人</string>
+    <string name="jcrdh">监测人电话</string>
+    <string name="djsj">登记入库</string>
+    <string name="cqcs">采取措施</string>
+    <string name="bz">备注</string>
+
+    <string name="zp">照片</string>
+    <string name="sp">视频</string>
+    <string name="sc">保存</string>
+    <string name="fh">取消</string>
+    <string name="cx">查询</string>
+    <string name="dt">地图&#160;&#62;</string>
+    <string name="wdwz">我的位置&#160;&#62;</string>
+    <string name="bj">编辑&#160;&#62;</string>
+    <string name="wp">卫片&#160;&#62;</string>
+    <string name="bc">保存&#160;&#62;</string>
+    <string name="dw">定位</string>
+    <string name="fanhui">&#60;&#160;返回</string>
+
+    <string name="addkc">添加矿产资源</string>
+    <string name="querykc">查询矿产资源</string>
+    <string name="listkc">矿产资源列表</string>
+    <string name="detailkc">矿产资源详情</string>
+    <string name="kczb">矿区坐标:</string>
+    <string name="kcbh">矿区编号:</string>
+    <string name="kcmc">矿产名称:</string>
+    <string name="kclx">矿产类型:</string>
+    <string name="kcclzt">处理状态:</string>
+    <string name="kcssc">所&#160;&#160;属&#160;&#160;村:</string>
+    <string name="kcssxz">所属乡镇:</string>
+    <string name="kcclsj">处理时间:</string>
+    <string name="kcdm">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址:</string>
+    <string name="kckccl">矿产储量:</string>
+    <string name="kcmj">面&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;积:</string>
+    <string name="kcfzr">负&#160;&#160;责&#160;&#160;人:</string>
+    <string name="kchfx">合&#160;&#160;法&#160;&#160;性:</string>
+    <string name="kcbz">备&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;注:</string>
+
+    <string name="xclj">巡查路径</string>
+    <string name="on">巡查开启</string>
+    <string name="off">巡查关闭</string>
+    <string name="xckg">巡查开关:</string>
+    <string name="xcjg">巡查间隔:</string>
+    <string name="xcks">巡查开始:</string>
+    <string name="xcjs">巡查结束:</string>
+    <string name="load">正在加载...</string>
+
+    <string name="lx">类型</string>
+    <string name="dd">地点</string>
+    <string name="sj">时间</string>
+    <string name="qkclx">矿产类型:</string>
+    <string name="qkcmc">矿产名称:</string>
+    <string name="headerkcmc">矿产名称</string>
+
+    <string name="qkcssz">所&#160;&#160;属&#160;&#160;镇:</string>
+    <string name="qkcssc">所&#160;&#160;属&#160;&#160;村:</string>
+
+    <string name="tplj">图片:</string>
+    <string name="splj">视频:</string>
+
+    <!--上报用地-->
+    <string name="dkzb">地块坐标:</string>
+    <string name="dkbh">地块编号:</string>
+    <string name="dkmj">地块面积:</string>
+    <string name="bssj">报送时间:</string>
+    <string name="bppc">报批批次:</string>
+    <string name="sbydfx">报批批次:</string>
+    <string name="zdbcfy">征地补偿费用:</string>
+    <string name="dsfzwbcfy">地上附着物补偿费用:</string>
+    <string name="bpnf">报批年份:</string>
+    <string name="sbydssz">所&#160;&#160;属&#160;&#160;镇:</string>
+    <string name="sbydssc">所&#160;&#160;属&#160;&#160;村:</string>
+    <string name="tdbpmc">土地报批名称:</string>
+    <string name="sbydzyfx">占压分析</string>
+    <string name="sbydweizhi">位置</string>
+    <string name="sbydbh">编号</string>
+
+    <string name="sbydmj">地块面积:</string>
+    <string name="sbydtdzsmc">土地征收名称:</string>
+    <string name="sbydtdzspwh">土地征收批文号:</string>
+    <string name="sbydbssj">报送时间:</string>
+    <string name="sbyddjsj">登记时间:</string>
+    <string name="sbydpfsj">批复时间:</string>
+    <string name="sbydzdbcfy">征地补偿费用:</string>
+    <string name="sbyddsfzwbcfy">地上附着物补偿费:</string>
+    <string name="sbyddttfbh">地图图幅编号:</string>
+    <string name="sbyddtbh">上报用地编号:</string>
+
+
+    <!--批准用地-->
+    <string name="pzydtdzsmc">土地征收名称:</string>
+    <string name="pzydtdzswh">土地征收文号:</string>
+    <string name="pzydpzsj">批准时间:</string>
+    <string name="pzydlggydjsj">"两公告一登记"时间:</string>
+    <string name="pzydsfnrzfcb">是否纳入政府储备:</string>
+    <string name="pzydpznf">批准年份:</string>
+    <string name="pzyddz">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址:</string>
+
+    <string name="pzdtl1">地&#160;&#160;&#160;&#160;块&#160;&#160;&#160;&#160;编&#160;&#160;&#160;&#160;号:</string>
+    <string name="pzdtl2">地&#160;&#160;&#160;&#160;块&#160;&#160;&#160;&#160;坐&#160;&#160;&#160;&#160;落:</string>
+    <string name="pzdtl3">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址:</string>
+    <string name="pzdtl4">地&#160;&#160;&#160;&#160;块&#160;&#160;&#160;&#160;面&#160;&#160;&#160;&#160;积:</string>
+    <string name="pzdtl5">农用地转用和土地征收名称:</string>
+    <string name="pzdtl7">批&#160;&#160;&#160;&#160;准&#160;&#160;&#160;&#160;时&#160;&#160;&#160;&#160;间:</string>
+    <string name="pzdtl6">农用地转用和土地征收批文号:</string>
+    <string name="pzdtl8">两公告一登记时间:</string>
+    <string name="pzdtl9">征&#160;地&#160;补&#160;偿&#160;费&#160;用:</string>
+    <string name="pzdtl10">地上附着物补偿费:</string>
+    <string name="pzdtl11">是否纳入政府储备:</string>
+    <string name="pzdtl12">地&#160;图&#160;图&#160;幅&#160;编&#160;号:</string>
+
+    <!--应急指挥-->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_yyhj">语音呼叫</string>
+    <string name="title_sphj">视频呼叫</string>
+    <string name="title_yjdj">语音对讲</string>
+    <string name="title_xxfs">消息发送</string>
+    <string name="title_tc">退出</string>
+
+    <!--供应批准用地-->
+    <string name="gypzdt1">地块编号:</string>
+    <string name="gypzdt2">供应面积:</string>
+    <string name="gypzdt3">供地批复名称:</string>
+    <string name="gypzdt4">供地批复文号:</string>
+    <string name="gypzdt5">供地批复时间:</string>
+    <string name="gypzdt6">土地用途:</string>
+    <string name="gypzdt7">容积率:</string>
+    <string name="gypzdt8">建设密度:</string>
+    <string name="gypzdt9">绿化比率:</string>
+    <string name="gypzdt10">供应方式:</string>
+    <string name="gypzdt11">用地单位名称:</string>
+    <string name="gypzdt12">用地项目名称:</string>
+    <string name="gypzdt13">合同编号:</string>
+    <string name="gypzdt14">成交款项:</string>
+    <string name="gypzdt15">合同签订时间:</string>
+    <string name="gypzdt16">实际交地时间:</string>
+    <string name="gypzdt17">实际开工时间:</string>
+    <string name="gypzdt18">竣工核验时间:</string>
+    <string name="gypzdt19">合同约定交地时间:</string>
+    <string name="gypzdt20">合同约定动工时间:</string>
+    <string name="gypzdt21">合同约定竣工时间:</string>
+    <string name="gypzdt22">申请开工时间:</string>
+    <string name="gypzdt23">实际竣工时间:</string>
+    <string name="gypzdt24">竣工核验情况:</string>
+
+    <!--供应用地查询-->
+    <string name="gypzdtquery1">供应年份:</string>
+    <string name="gypzdtquery2">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址:</string>
+    <string name="gypzdtquery3">项目名称:</string>
+
+    <!--储备用地-->
+    <string name="cbydquery1">储备年份:</string>
+    <string name="cbydquery2">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址:</string>
+    <string name="cbydquery3">土地名称:</string>
+
+    <!--巡查任务-->
+    <string name="xcrwquery1">任务类型:</string>
+    <string name="xcrwquery2">任务状态:</string>
+    <string name="xcrwquery5">用&#160;&#160;户&#160;&#160;名:</string>
+    <string name="xcrwquery6">任务性质:</string>
+    <string name="xcrwquery7">任务年份:</string>
+
+    <string name="xcrwlistshow1">任务类型:</string>
+    <string name="xcrwlistshow2">任务主题:</string>
+    <string name="xcrwlistshow3">任务内容:</string>
+    <string name="xcrwlistshow4">任务地点:</string>
+    <string name="xcrwlistshow5">任务经度:</string>
+    <string name="xcrwlistshow6">任务纬度:</string>
+    <string name="xcrwlistshow7">任务附件:</string>
+    <string name="xcrwlistshow8">巡查结果内容:</string>
+    <string name="xcrwlistshow9">巡查拍照:</string>
+    <string name="xcrwlistshow10">任务状态:</string>
+    <string name="xcrwlistshow11">任务起始时间:</string>
+    <string name="xcrwlistshow12">任务结束时间:</string>
+    <string name="xcrwlistshow13">发送人:</string>
+    <string name="xcrwlistshow14">接收人:</string>
+
+    <!--卫片执法-->
+    <string name="wpzfquery1">卫片乡镇:</string>
+    <string name="wpzfquery2">任务状态:</string>
+    <string name="wpzfquery3">年&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;份:</string>
+    <string name="wpzfquery4">发送人:</string>
+    <string name="wpzfquery5">执行人:</string>
+    <string name="wpzfquery6">卫片地址:</string>
+    <string name="wpzfquery7">状态:</string>
+    <string name="wpzfquery8">任务备注:</string>
+    <string name="wpzfquery9">下发日期:</string>
+    <string name="wpzfquery10">完成内容:</string>
+    <string name="wpzfquery11">完成附件:</string>
+    <string name="wpzfquery12">完成日期:</string>
+
+    <string name="wpzfurl1">卫片乡镇:</string>
+    <string name="wpzfurl2">卫片地图服务:</string>
+    <string name="wpzfurl3">卫片附件:</string>
+    <string name="wpzfurl4">备注:</string>
+    <string name="wpzfurl5">所属日期:</string>
+
+    <!--系统设置-->
+    <string name="xtdw">GPS&#160;位&#160;置&#160;上&#160;报</string>
+    <string name="xtdwcrw">待完成任务</string>
+    <string name="xtywcrw">已完成任务</string>
+    <string name="quitext">退出系统</string>
+    <string name="dzzhyj">地灾预警任务</string>
+    <string name="yjzs">应急值守</string>
+    <string name="title_activity_main9">Main9Activity</string>
+    <string name="title_activity_map9">Map9Activity</string>
+    <string name="please_choose">选择任务</string>
+    <string name="rw">任务</string>
+    <string name="polyline">裂缝位置线</string>
+    <string name="polygon">避险区域面</string>
+    <string name="yxpolygon">影响范围面</string>>
+    <string name="yjedit">预警任务编辑</string>
+    <string name="receive">执行人:</string>
+    <string name="title_activity_dzzhinfo">DZZHinfoActivity</string>
+    <string name="cs">次数</string>
+    <string name="title_activity_xcry">XCRY</string>
+    <string name="title_activity_dzzhnext_record">DZZHNextRecordActivity</string>
+</resources>

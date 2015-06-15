@@ -1,0 +1,90 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView_showMessages"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/map_header_layout"></include>
+
+        <TableLayout
+            android:id="@+id/GridView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dip"
+            android:layout_gravity="center_horizontal"
+            >
+            <TableRow
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <Button
+                    android:id="@+id/zpBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#ff000000"
+                    android:text="@string/zp"
+                    android:textSize="18sp"
+                    android:layout_weight="1.0"
+
+                    />
+                <Button
+                    android:id="@+id/OkBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#ff000000"
+                    android:text="@string/sc"
+                    android:textSize="18sp"
+                    android:layout_weight="1.0"
+                    />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1.0"
+                    >
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:scrollbars="none">
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical">
+
+                            <TableRow
+                                android:id="@+id/row"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

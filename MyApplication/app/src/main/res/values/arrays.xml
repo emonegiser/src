@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dzzh_type_str">
+        <item>滑坡 </item>
+        <item>泥石流 </item>
+    </string-array>
+</resources>

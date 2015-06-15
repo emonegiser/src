@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="feestatis_bkg">#dddee0</color>
+    <color name="ziti">#0d171c</color>
+    <color name="backgroundcolor">#1c65a4</color>
+    <color name="gundongbackgroundcolor">#324276a8</color>
+    <color name="back">#000000</color>
+    <color name="back2">#151515</color>
+    <color name="back3">#2B2B2B</color>
+    <color name="colorhint">#064ec4</color>
+    <color name="china">#ff3c4e</color>
+    <color name="hk">#febd00</color>
+    <color name="tw">#ff00fe</color>
+    <color name="titleback">#1e68a7</color>
+    <color name="video_call_video_bg">#ffd6f2f9</color>
+    <color name="call_alert_true">#D9D9D9</color>
+    <color name="call_alert_false">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+
+</resources>
