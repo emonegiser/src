@@ -1,1 +1,1 @@
-include ':app', ':gps_moduel', ':esrigps'
+include ':app'
