@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/map_layoutt"></include>
+
+
+    <com.esri.android.map.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        initExtent="35515491.804418 3010176.076896 35538161.349757 3023717.478979"
+        mapoptions.center="27.283955, 105.291644"
+        mapoptions.ZoomLevel="15" />
+
+    <LinearLayout
+        android:id="@+id/bottomlinear"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fzfinish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/call_alert_true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="提交线面"
+            android:textSize="18sp"
+            android:layout_weight="1.0"/>
+        <!--<TextView-->
+            <!--android:id="@+id/querypointTextView"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/titleback"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"-->
+            <!--android:text="查询"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="18sp"-->
+            <!--android:layout_weight="1.0"/>-->
+        <TextView
+            android:id="@+id/clearTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/call_alert_true"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="清除"
+            android:textSize="18sp"
+            android:layout_weight="1.0"/>
+    </LinearLayout>
+</LinearLayout>

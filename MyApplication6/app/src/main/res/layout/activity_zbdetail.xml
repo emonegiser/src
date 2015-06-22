@@ -1,0 +1,16 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView_showMessages"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:id="@+id/editTextzbdetail"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:text="2500"
+        android:textSize="15sp"/>
+</ScrollView>
